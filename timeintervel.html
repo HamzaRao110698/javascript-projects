@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time interval</title>
+</head>
+<body>
+
+    <h1>hello hamza</h1>
+
+    <button id="stop">  stop </button>
+    <button id="start">  start </button>
+</body>
+<script>
+    // const timeout=  setTimeout( ()=>{
+    //     console.log("hello sir");
+    // },1000)
+    //  document.querySelector('#stop').addEventListener('click',()=>{
+    //     clearTimeout(timeout)
+    //     console.log("stopped");
+
+    //  })
+
+        let startup
+    const start=function(){
+
+        let startnow=function (){
+        console.log("hello hamza");
+       }
+
+        startup=setInterval(startnow,1000)
+
+        
+
+       
+
+
+    }
+
+        const stop=function(){
+        clearInterval(startup)
+    }
+        
+
+
+    document.querySelector('#start').addEventListener('click',start)
+
+  
+
+    
+    document.querySelector('#stop').addEventListener('click',stop)
+        
+      
+    
+    
+</script>
+</html>

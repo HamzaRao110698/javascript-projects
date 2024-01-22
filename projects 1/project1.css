@@ -1,0 +1,34 @@
+body{
+    background-color:black
+}
+.heading{
+    color: whitesmoke;
+    background: blueviolet;
+
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+.main{
+    padding: 30px;
+    
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#brown{
+    background-color: brown;
+}
+#pink{
+    background-color: pink;
+}
+#grey{
+    background-color: grey;
+}

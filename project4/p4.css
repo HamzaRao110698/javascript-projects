@@ -1,0 +1,112 @@
+body{
+    background-color:black;
+}
+.main{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+h2{
+      color: antiquewhite;
+}
+h1{
+  
+    color:antiquewhite;
+    margin-bottom: 8%;
+    
+    
+}
+
+.input{
+    margin-bottom: 3%;
+    margin-left: 30px;
+    width: 8%;
+    padding: 15px;
+    color :black;
+    border: 30px;
+    border-radius: 10px;
+    border-color: red;
+    cursor: pointer;
+
+
+}
+.btn{
+    margin-bottom: 3%;
+    margin-left: 40px;
+    padding: 8px;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #3F1D38;
+    
+    
+
+}
+button:hover{
+    background-color:#12486B;
+}
+input:hover{
+    background-color:#776B5D;
+
+}
+.display{
+    border-style: groove ;
+    border-width: 4px;
+    width: 500px;
+    height: 350px;
+    margin-top: 30px;
+
+}
+
+   
+
+
+.previous{
+    color:antiquewhite;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.chance{
+    color:antiquewhite;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.guess{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    border-style:inherit;
+    width: fit-content;
+    padding: 6px;
+    
+
+}
+.remaining{
+    margin-left:13px ;
+    color: white;
+}
+.hint{
+    color:antiquewhite;
+    margin-left: 150px;
+    margin-top: 40px;
+    border-style: groove;
+    width: 40%;
+    padding: 15px;
+    border-color: red;
+
+}
+p{
+    color: antiquewhite;
+    margin-left: 30%;
+    margin-top: 11%;
+    border-style: groove;
+    width: fit-content;
+    padding: 4px;
+    border-width: 10px;
+    border-color: #3F1D38;
+    border-radius: 25px;
+    cursor: pointer;
+}
+p:hover{
+    background-color:darkslategray;
+}

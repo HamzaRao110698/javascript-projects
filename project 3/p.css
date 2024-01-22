@@ -1,0 +1,26 @@
+body{
+    background: #000;
+}
+h1{
+    color: wheat;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+.time{
+    border-style: double;
+    background-color: white;
+    padding-top: 30px;
+    margin-left: 40%;
+    margin-top: 40px;
+    width: 150px;
+    color:brown;
+    border-color: brown ;
+    border-radius: 10px;
+    border-bottom: 20px;
+    justify-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+
+}
